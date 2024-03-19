@@ -1,0 +1,15 @@
+# GET /products - pobieranie wszystkich produktów
+GET     /                  controllers.ProductController.getProducts()
+GET     /products          controllers.ProductController.getProducts()
+
+# GET /products/:id - pobieranie konkretnego produktu
+GET     /products/:id               controllers.ProductController.getProduct(id: Int)
+
+# POST /products - dodawanie nowego produktu
+POST    /products                   controllers.ProductController.addProduct()
+
+# PUT /products/:id - aktualizacja istniejącego produktu
+PUT     /products/:id               controllers.ProductController.updateProduct(id: Int)
+
+# DELETE /products/:id - usuwanie produktu
+DELETE  /products/:id               controllers.ProductController.deleteProduct(id: Int)
