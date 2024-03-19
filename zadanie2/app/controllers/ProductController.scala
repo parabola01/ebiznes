@@ -6,20 +6,17 @@ import javax.inject.Inject
 
 // Klasa kontrolera produktów
 class ProductController @Inject()(val controllerComponents: ControllerComponents) extends BaseController {
-
-  // Przykładowa lista produktów - tutaj możesz użyć bazy danych lub innego źródła danych
+  
   var products = Seq(
     Product(1, "Książka", 29.99),
     Product(2, "Telefon", 499.99),
     Product(3, "Laptop", 999.99)
   )
 
-  // Endpoint do pobierania wszystkich produktów
   def getProducts() = Action { implicit request: Request[AnyContent] =>
     Ok(Json.toJson(products))
   }
 
-  // Endpoint do pobierania konkretnego produktu po ID
   def getProduct(id: Int) = Action { implicit request: Request[AnyContent] =>
     products.find(_.id == id) match {
       case Some(product) => Ok(Json.toJson(product))
@@ -27,7 +24,6 @@ class ProductController @Inject()(val controllerComponents: ControllerComponents
     }
   }
 
-  // Endpoint do dodawania nowego produktu
   def addProduct() = Action(parse.json) { implicit request =>
     request.body.validate[Product] match {
       case JsSuccess(product, _) =>
@@ -42,7 +38,6 @@ class ProductController @Inject()(val controllerComponents: ControllerComponents
     }
   }
 
-  // Endpoint do aktualizacji istniejącego produktu
 def updateProduct(id: Int) = Action(parse.json) { implicit request =>
   request.body.validate[Product] match {
     case JsSuccess(updatedProduct, _) =>
@@ -63,7 +58,6 @@ def updateProduct(id: Int) = Action(parse.json) { implicit request =>
 }
 
 
-  // Endpoint do usuwania produktu po ID
   def deleteProduct(id: Int) = Action { implicit request =>
     products.find(_.id == id) match {
       case Some(_) =>
@@ -75,10 +69,8 @@ def updateProduct(id: Int) = Action(parse.json) { implicit request =>
   }
 }
 
-// Klasa reprezentująca produkt
 case class Product(id: Int, name: String, price: Double)
 
-// Implicit konwerter dla JSON dla klasy Product
 object Product {
   implicit val format: OFormat[Product] = Json.format[Product]
 }
