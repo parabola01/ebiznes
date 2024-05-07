@@ -35,3 +35,6 @@ Kod: zadanie5
 Zadanie 6 Testy
 
 ✅ 3.0 wymaganie 1 [link](https://github.com/parabola01/ebiznes/tree/c7bb47769afc576a21ea9a68fba9a6c88b05a7ed/zadanie6)
+
+Kod : zadanie6
+
