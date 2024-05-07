@@ -25,3 +25,9 @@ Zadanie 4 Go
 ✅ 3.0 wymaganie 1 [link](https://github.com/parabola01/ebiznes/tree/571a3da7f409e88ea137f1f0d7cbd8b26778777b/zadanie4)
 
 Kod: zadanie4
+
+Zadanie 5 Frontend
+
+✅ 3.0 wymaganie 1 [link](https://github.com/parabola01/ebiznes/tree/1b302aedddb22d8c8cb15baa9700a2918ba492a6/zadanie5)
+
+Kod: zadanie5
