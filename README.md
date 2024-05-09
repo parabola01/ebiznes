@@ -38,3 +38,10 @@ Zadanie 6 Testy
 
 Kod : zadanie6
 
+Zadanie 7 Sonar
+
+✅ 3.0 wymaganie 1 [link](https://github.com/parabola01/ebiznes/tree/a5f5fa9c1e83283a9ead49d68a5755a906a6283b/zadanie7)
+
+Kod : zadanie7
+
+
