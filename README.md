@@ -52,3 +52,8 @@ Zadanie 8 Oauth2
 
 Kod : zadanie8
 
+Zadanie 9 ChatGPT bot
+
+✅ 3.0 wymaganie 1 [link](https://github.com/parabola01/ebiznes/tree/9ac89f922eaf014567f4e847b0a11897f6361e16/zadanie9)
+
+
