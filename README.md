@@ -44,4 +44,11 @@ Zadanie 7 Sonar
 
 Kod : zadanie7
 
+Zadanie 8 Oauth2
+
+✅ 3.0 wymaganie 1 [link](https://github.com/parabola01/ebiznes/tree/8d0fc6f545007637b038b4ef5ce3fd207fc5b31c/zadanie8)
+
+✅ 3.5 wymaganie 2 [link](https://github.com/parabola01/ebiznes/tree/8d0fc6f545007637b038b4ef5ce3fd207fc5b31c/zadanie8)
+
+Kod : zadanie8
 
