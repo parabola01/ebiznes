@@ -58,4 +58,6 @@ Zadanie 9 ChatGPT bot
 
 Kod: zadanie9
 
+Zadanie 10 Chmura/CI
 
+✅ 3.0 wymaganie 1 [link](https://github.com/parabola01/ebiznes/tree/25819f9cfcd41f907260300273e123f5d9f98553/zadanie10)
